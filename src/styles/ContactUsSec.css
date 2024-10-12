@@ -1,0 +1,98 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Equivalent to gap-10 */
+  padding-bottom: 16px; /* Equivalent to pb-2 */
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 16px; /* Equivalent to pt-10 and px-4 */
+  position: relative;
+  z-index: 10;
+}
+
+@media (min-width: 768px) {
+  .contact-section {
+    gap: 80px; /* Equivalent to md:gap-20 */
+  }
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Equivalent to gap-4 */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px; /* Equivalent to md:w-[500px] */
+  z-index: 10;
+}
+
+.contact-heading {
+  font-size: 1.875rem; /* Equivalent to text-3xl */
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -0.05em; /* Equivalent to -tracking-tighter */
+}
+
+@media (min-width: 640px) {
+  .contact-heading {
+    font-size: 2.25rem; /* Equivalent to sm:text-4xl */
+  }
+}
+
+.highlight-text {
+  color: #CBACF9;
+}
+
+.contact-description {
+  color: #B0B0B0; /* Equivalent to text-gray-300 */
+  text-align: center;
+  font-size: 0.875rem; /* Equivalent to text-sm */
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(71, 85, 105, 0.6); /* Equivalent to bg-slate-900/[0.6] */
+  border: 1px solid #1e293b; /* Equivalent to border-slate-800 */
+  border-radius: 12px; /* Equivalent to rounded-xl */
+  padding: 16px; /* Equivalent to py-4 and px-4 */
+  gap: 8px; /* Equivalent to gap-2 */
+  color: white;
+  margin-top: 24px; /* Equivalent to mt-6 */
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+  background-color: rgba(71, 85, 105, 0.9); /* Equivalent to hover:bg-slate-800/90 */
+  border-color: #374151; /* Equivalent to hover:border-slate-600 */
+  transform: scale(1.05);
+}
+
+.button-icon {
+  margin-left: 8px; /* Equivalent to ml-2 */
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-button:hover .button-icon {
+  transform: translateX(4px) rotate(-45deg);
+}
+
+.footer-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+
+.footer-text {
+  color: #6B7280; /* Equivalent to text-gray-500 */
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

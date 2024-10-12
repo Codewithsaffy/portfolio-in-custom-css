@@ -1,0 +1,58 @@
+.services-section {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px; /* Equivalent to gap-10 */
+  padding: 64px 16px; /* Equivalent to py-16 and px-4 */
+  background-color: #000213;
+}
+
+@media (min-width: 768px) {
+  .services-section {
+    gap: 80px; /* Equivalent to md:gap-20 */
+    padding: 64px 32px; /* Equivalent to md:px-8 */
+  }
+}
+
+@media (min-width: 1024px) {
+  .services-section {
+    padding: 64px 64px; /* Equivalent to lg:px-16 */
+  }
+}
+
+.services-heading {
+  font-size: 1.875rem; /* Equivalent to text-3xl */
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+@media (min-width: 640px) {
+  .services-heading {
+    font-size: 2.25rem; /* Equivalent to sm:text-4xl */
+  }
+}
+
+.highlight-text {
+  color: #cbacf9;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px; /* Equivalent to gap-10 */
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+@media (min-width: 1024px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr; /* Equivalent to lg:grid-cols-2 */
+  }
+}

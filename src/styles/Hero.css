@@ -1,0 +1,106 @@
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    padding-top: 0;
+  }
+}
+
+/* Spotlight Styles */
+.spotlight-one {
+  position: absolute;
+  top: -40%;
+  left: 0;
+}
+
+.spotlight-two {
+  position: absolute;
+  top: -40%;
+  left: 0;
+}
+
+.spotlight-three {
+  position: absolute;
+  top: -40%;
+  left: 100%;
+}
+
+/* Hero Content */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1.5rem;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .hero-content {
+    width: 80%;
+    padding-top: 5rem;
+  }
+}
+
+/* Hero Subtitle */
+.hero-subtitle {
+  color: #e4ecff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .hero-subtitle {
+    font-size: 16px;
+  }
+}
+
+/* Hero Title */
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+@media (min-width: 640px) {
+  .hero-title {
+    font-size: 41px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+/* Hero Description */
+.hero-description {
+  font-size: 1rem;
+  color: #e4ecff;
+}
+
+@media (min-width: 768px) {
+  .hero-description {
+    font-size: 1.25rem;
+  }
+}
+
+/* Button */
+.arrow-icon {
+  transform: rotate(-12deg);
+  margin-left: 0.5rem;
+}

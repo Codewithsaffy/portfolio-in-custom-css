@@ -1,0 +1,71 @@
+.service-card {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  padding: 32px;
+  border: 1px solid #2b203b;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(to right, #04071D, #0C0E23);
+  transition: all 0.3s ease-in-out;
+  box-shadow: -5px -5px 6px 0px #161935;
+  transform: scale(1);
+}
+
+@media (min-width: 768px) {
+  .service-card {
+    flex-direction: row;
+  }
+}
+
+.service-card:hover {
+  background: linear-gradient(to right, #1A1C31, #04071D);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.service-card-image-wrapper {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.group:hover .service-card-image-wrapper {
+  transform: scale(1.1);
+}
+
+.service-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .service-card-content {
+    text-align: left;
+  }
+}
+
+.service-card-heading {
+  font-size: 1.25rem; /* Equivalent to text-xl */
+  font-weight: bold;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .service-card-heading {
+    font-size: 1.5rem; /* Equivalent to md:text-2xl */
+  }
+}
+
+.service-card-description {
+  color: #cccccc; /* Equivalent to text-gray-300 */
+  font-size: 0.875rem; /* Equivalent to text-sm */
+}
+
+@media (min-width: 768px) {
+  .service-card-description {
+    font-size: 1rem; /* Equivalent to md:text-base */
+  }
+}
