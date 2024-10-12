@@ -1,7 +1,7 @@
 import projects from "@/data/projects";
 import React from "react";
 import ProjectCard from "../smallComp/ProjectCard";
-import "@/styles/projectSection.css"
+import "@/styles/ProjectSection.css"
 
 const Projects = () => {
   return (
