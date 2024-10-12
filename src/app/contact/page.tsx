@@ -5,7 +5,7 @@ import axios from "axios";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { FaArrowLeft } from "react-icons/fa6";
 import Link from "next/link";
-import "@/styles/ContactUsPage.css"
+import "@/styles/ContactUSPage.css"
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({

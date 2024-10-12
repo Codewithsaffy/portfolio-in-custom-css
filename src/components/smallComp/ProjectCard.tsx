@@ -5,7 +5,7 @@ import React from "react";
 import { FaCode } from "react-icons/fa6";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { ProjectType } from "../../../types";
-import "@/styles/project.css"
+import "@/styles/Project.css"
 
 const ProjectCard = ({
   data,
